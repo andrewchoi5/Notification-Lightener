@@ -25,7 +25,7 @@
       <button type="button" class="close" data-dismiss="alert">&times;</button>
       <h4>BBAR Carrier SLA Report: CSM/SM Approval <i></i></h4>
       <p>For a tutorial on this web application, please refer to: <a href="howto.php" target="_blank"><b><i>How-To</i></b></a>. &nbsp;
-
+<!-- comment -->
     </div>  
     <?php
     $d = new DateTime( 'F Y' );
