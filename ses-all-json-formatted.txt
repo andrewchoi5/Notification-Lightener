@@ -1,0 +1,1347 @@
+{
+	"services": {
+		"BBM": {
+			"name": "BlackBerry Messenger",
+			"warnings": [],
+			"totals": {
+				"bbar": {
+					"mttr": 3800.1999999999998,
+					"mtbf": 2.0,
+					"ntickets": 15,
+					"gmps": 78.694484167347426
+				},
+				"mtbf": 1.875,
+				"mttr": 3559.625,
+				"ntickets": 16,
+				"gmps": 78.694484167347426
+			},
+			"subservices": {
+				"User Status Updates": {
+					"tickets": {
+						"S3 - Medium": 7
+					},
+					"gmps": 49.758576405456054
+				},
+				"BBM Ads": {
+					"tickets": {
+						"S3 - Medium": 2,
+						"S1 - Critical": 1
+					},
+					"gmps": 26.81720420156212
+				},
+				"Contact Management": {
+					"tickets": {
+						"S3 - Medium": 8,
+						"S1 - Critical": 1
+					},
+					"gmps": 76.424376405456059
+				},
+				"BBM Voice & Video": {
+					"tickets": {
+						"S3 - Medium": 5
+					},
+					"gmps": 47.239339828694078
+				},
+				"BBM Connected Apps": {
+					"tickets": {
+						"S3 - Medium": 3
+					},
+					"gmps": 2.6663030398305332
+				},
+				"BBM Channels": {
+					"tickets": {
+						"S3 - Medium": 10,
+						"S1 - Critical": 2
+					},
+					"gmps": 31.439272033482766
+				},
+				"File Transfers": {
+					"tickets": {
+						"S3 - Medium": 7
+					},
+					"gmps": 49.758576405456054
+				},
+				"Display Picture (Avatars)": {
+					"tickets": {
+						"S3 - Medium": 10
+					},
+					"gmps": 49.997435121740402
+				},
+				"Registration": {
+					"tickets": {
+						"S3 - Medium": 8,
+						"S1 - Critical": 1
+					},
+					"gmps": 76.424376405456059
+				},
+				"Messaging": {
+					"tickets": {
+						"S3 - Medium": 8
+					},
+					"gmps": 49.758576405456054
+				},
+				"BBM Shop": {
+					"tickets": {
+						"S3 - Medium": 3,
+						"S1 - Critical": 2
+					},
+					"gmps": 28.603406784100621
+				},
+				"Pictures (Group Chat)": {
+					"tickets": {
+						"S3 - Medium": 9
+					},
+					"gmps": 49.806605436224899
+				}
+			},
+			"subservice-totals": {
+				"subscriber-minutes-with-ratio": 6657501736.9759808,
+				"subscriber-minutes": 20528230872.726013,
+				"gmps": 78.694484167347454
+			},
+			"resources": {
+				"SES_RLY": {
+					"descriptors": {
+						"rlypb": {
+							"tickets": {
+								"INC-5499": 32247,
+								"INC-6477": 7626
+							},
+							"ntickets": 2,
+							"mttr": 19936.5,
+							"experience": {
+								"User Status Updates": ["BBOS"],
+								"Contact Management": ["BBOS"],
+								"BBM Connected Apps": ["BBOS"],
+								"BBM Channels": ["BBOS"],
+								"File Transfers": ["BBOS"],
+								"Display Picture (Avatars)": ["BBOS"],
+								"Registration": ["BBOS"],
+								"Messaging": ["BBOS"],
+								"Pictures (Group Chat)": ["BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5499": 32427,
+									"INC-6477": 7626
+								},
+								"mttr": 20026.5,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 2.5803338279368808
+							},
+							"mtbf": 15.0,
+							"gmps": 2.5803338279368808
+						},
+						"rly": {
+							"tickets": {
+								"INC-12037": 12002
+							},
+							"ntickets": 1,
+							"mttr": 12002.0,
+							"experience": {
+								"User Status Updates": ["BB10",
+								"BBOS"],
+								"Contact Management": ["BB10",
+								"BBOS"],
+								"BBM Connected Apps": ["BB10",
+								"BBOS"],
+								"BBM Channels": ["BB10",
+								"BBOS"],
+								"File Transfers": ["BB10",
+								"BBOS"],
+								"Display Picture (Avatars)": ["BB10",
+								"BBOS"],
+								"Registration": ["BB10",
+								"BBOS"],
+								"Messaging": ["BB10",
+								"BBOS"],
+								"Pictures (Group Chat)": ["BB10",
+								"BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-12037": 11882
+								},
+								"mttr": 11882.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.085969211893652503
+							},
+							"mtbf": 30.0,
+							"gmps": 0.085969211893652503
+						}
+					},
+					"name": "SES-Relay Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 17311.666666666668,
+							"mtbf": 10.0,
+							"ntickets": 3,
+							"gmps": 2.6663030398305332
+						},
+						"mtbf": 10.0,
+						"mttr": 17291.666666666668,
+						"ntickets": 3,
+						"gmps": 2.6663030398305332
+					}
+				},
+				"SES_BBM": {
+					"descriptors": {
+						"bbmprflsvrebus": {
+							"tickets": {
+								"INC-5984": 152
+							},
+							"ntickets": 1,
+							"mttr": 152.0,
+							"experience": {
+								"BBM Shop": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5984": 152
+								},
+								"mttr": 152.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.010202582538500536
+							},
+							"mtbf": 30.0,
+							"gmps": 0.010202582538500536
+						},
+						"bbmcpsvr": {
+							"tickets": {
+								"INC-7419": 11
+							},
+							"ntickets": 1,
+							"mttr": 11.0,
+							"experience": {
+								"Messaging": ["Android",
+								"iOS"]
+							},
+							"bbar": {
+								
+							},
+							"mtbf": 30.0,
+							"gmps": null
+						},
+						"bbmprflsvribus": {
+							"tickets": {
+								"INC-5984": 283
+							},
+							"ntickets": 1,
+							"mttr": 283.0,
+							"experience": {
+								"BBM Channels": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5984": 283
+								},
+								"mttr": 283.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.084900000000000059
+							},
+							"mtbf": 30.0,
+							"gmps": 0.084900000000000059
+						}
+					},
+					"name": "SES-BBM Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 283.0,
+							"mtbf": 30.0,
+							"ntickets": 1,
+							"gmps": 0.095102582538500596
+						},
+						"mtbf": 15.0,
+						"mttr": 147.0,
+						"ntickets": 2,
+						"gmps": 0.095102582538500596
+					}
+				},
+				"SES_BBID": {
+					"descriptors": {
+						"bbid": {
+							"tickets": {
+								"INC-5428": 266,
+								"INC-5517": 98
+							},
+							"ntickets": 2,
+							"mttr": 182.0,
+							"experience": {
+								"BBM Ads": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"],
+								"BBM Channels": ["Android",
+								"BB10",
+								"BBOS",
+								"Desktop",
+								"iOS"],
+								"Registration": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"],
+								"BBM Shop": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"],
+								"Contact Management": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5428": 266,
+									"INC-5517": 98
+								},
+								"mttr": 182.0,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 26.665799999999965
+							},
+							"mtbf": 15.0,
+							"gmps": 26.665799999999965
+						}
+					},
+					"name": "SES-BBID Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 182.0,
+							"mtbf": 15.0,
+							"ntickets": 2,
+							"gmps": 26.665799999999965
+						},
+						"mtbf": 15.0,
+						"mttr": 182.0,
+						"ntickets": 2,
+						"gmps": 26.665799999999965
+					}
+				},
+				"SES_UCI": {
+					"descriptors": {
+						"bbmcpvmclstr": {
+							"tickets": {
+								"INC-6774": 25,
+								"INC-6444": 140
+							},
+							"ntickets": 2,
+							"mttr": 82.5,
+							"experience": {
+								"User Status Updates": ["Android",
+								"iOS"],
+								"Contact Management": ["Android",
+								"iOS"],
+								"BBM Voice & Video": ["Android",
+								"iOS"],
+								"File Transfers": ["Android",
+								"iOS"],
+								"Display Picture (Avatars)": ["Android",
+								"iOS"],
+								"Registration": ["Android",
+								"iOS"],
+								"Messaging": ["Android",
+								"iOS"],
+								"Pictures (Group Chat)": ["Android",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-6774": 25,
+									"INC-6444": 140
+								},
+								"mttr": 82.5,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 0.086411814942580101
+							},
+							"mtbf": 15.0,
+							"gmps": 0.086411814942580101
+						},
+						"ucisipturn": {
+							"tickets": {
+								"INC-5852": 3660,
+								"INC-6444": 140
+							},
+							"ntickets": 2,
+							"mttr": 1900.0,
+							"experience": {
+								"User Status Updates": ["Android",
+								"Desktop",
+								"iOS"],
+								"Contact Management": ["Android",
+								"Desktop",
+								"iOS"],
+								"BBM Voice & Video": ["Android",
+								"Desktop",
+								"iOS"],
+								"File Transfers": ["Android",
+								"Desktop",
+								"iOS"],
+								"Display Picture (Avatars)": ["Android",
+								"Desktop",
+								"iOS"],
+								"Registration": ["Android",
+								"Desktop",
+								"iOS"],
+								"Messaging": ["Android",
+								"Desktop",
+								"iOS"],
+								"Pictures (Group Chat)": ["Android",
+								"Desktop",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5852": 3660,
+									"INC-6444": 140
+								},
+								"mttr": 1900.0,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 46.854457349120821
+							},
+							"mtbf": 15.0,
+							"gmps": 46.854457349120821
+						},
+						"bbvoicevid": {
+							"tickets": {
+								"INC-7453": 120
+							},
+							"ntickets": 1,
+							"mttr": 120.0,
+							"experience": {
+								"BBM Voice & Video": ["BB10",
+								"BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-7453": 120
+								},
+								"mttr": 120.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.14706646306855534
+							},
+							"mtbf": 30.0,
+							"gmps": 0.14706646306855534
+						},
+						"ucicrossplatformmessaging": {
+							"tickets": {
+								"INC-7007": 30
+							},
+							"ntickets": 1,
+							"mttr": 30.0,
+							"experience": {
+								"User Status Updates": ["Android",
+								"iOS"],
+								"BBM Ads": ["Android",
+								"iOS"],
+								"Contact Management": ["Android",
+								"iOS"],
+								"BBM Voice & Video": ["Android",
+								"iOS"],
+								"BBM Shop": ["Android",
+								"iOS"],
+								"File Transfers": ["Android",
+								"iOS"],
+								"Display Picture (Avatars)": ["Android",
+								"iOS"],
+								"Registration": ["Android",
+								"iOS"],
+								"Messaging": ["Android",
+								"iOS"],
+								"BBM Channels": ["Android",
+								"iOS"],
+								"Pictures (Group Chat)": ["Android",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-7007": 30
+								},
+								"mttr": 30.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.15140420156213028
+							},
+							"mtbf": 30.0,
+							"gmps": 0.15140420156213028
+						}
+					},
+					"name": "SES-UCI Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 795.0,
+							"mtbf": 6.0,
+							"ntickets": 5,
+							"gmps": 47.239339828694085
+						},
+						"mtbf": 6.0,
+						"mttr": 795.0,
+						"ntickets": 5,
+						"gmps": 47.239339828694085
+					}
+				},
+				"SES_BBM_CHANNELS": {
+					"descriptors": {
+						"bbmchanlsrvr": {
+							"tickets": {
+								"INC-5984": 327
+							},
+							"ntickets": 1,
+							"mttr": 327.0,
+							"experience": {
+								"BBM Channels": ["Android",
+								"BB10",
+								"BBOS",
+								"Desktop",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5984": 327
+								},
+								"mttr": 327.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.013080000000000012
+							},
+							"mtbf": 30.0,
+							"gmps": 0.013080000000000012
+						},
+						"bbmchanlcsndra": {
+							"tickets": {
+								"INC-7297": 74
+							},
+							"ntickets": 1,
+							"mttr": 74.0,
+							"experience": {
+								"BBM Channels": ["Android",
+								"BB10",
+								"BBOS",
+								"Desktop",
+								"iOS"],
+								"BBM Shop": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-7297": 74
+								},
+								"mttr": 74.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 1.7759999999999994
+							},
+							"mtbf": 30.0,
+							"gmps": 1.7759999999999994
+						}
+					},
+					"name": "SES-BBM Channels Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 200.5,
+							"mtbf": 15.0,
+							"ntickets": 2,
+							"gmps": 1.7890799999999993
+						},
+						"mtbf": 15.0,
+						"mttr": 200.5,
+						"ntickets": 2,
+						"gmps": 1.7890799999999993
+					}
+				},
+				"SES_OLYMPIA": {
+					"descriptors": {
+						"olympiabbmavt": {
+							"tickets": {
+								"INC-6774": 25
+							},
+							"ntickets": 1,
+							"mttr": 25.0,
+							"experience": {
+								"Display Picture (Avatars)": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-6774": 25
+								},
+								"mttr": 25.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.15707392419422581
+							},
+							"mtbf": 30.0,
+							"gmps": 0.15707392419422581
+						},
+						"olympiahera": {
+							"tickets": {
+								"INC-7299": 11,
+								"INC-8573": 117
+							},
+							"ntickets": 2,
+							"mttr": 64.0,
+							"experience": {
+								"Pictures (Group Chat)": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"],
+								"Display Picture (Avatars)": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"],
+								"BBM Channels": ["Android",
+								"BB10",
+								"BBOS",
+								"Desktop",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-7299": 11,
+									"INC-8573": 117
+								},
+								"mttr": 64.0,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 0.048029030768843815
+							},
+							"mtbf": 15.0,
+							"gmps": 0.048029030768843815
+						},
+						"olympiacirce": {
+							"tickets": {
+								"INC-8759": 200
+							},
+							"ntickets": 1,
+							"mttr": 200.0,
+							"experience": {
+								"Display Picture (Avatars)": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"],
+								"BBM Channels": ["Android",
+								"BB10",
+								"BBOS",
+								"Desktop",
+								"iOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-8759": 200
+								},
+								"mttr": 200.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.033755761321269812
+							},
+							"mtbf": 30.0,
+							"gmps": 0.033755761321269812
+						}
+					},
+					"name": "SES-Olympia Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 88.25,
+							"mtbf": 7.5,
+							"ntickets": 4,
+							"gmps": 0.23885871628433944
+						},
+						"mtbf": 7.5,
+						"mttr": 88.25,
+						"ntickets": 4,
+						"gmps": 0.23885871628433944
+					}
+				}
+			}
+		},
+		"Handheld": {
+			"name": "Handheld Services",
+			"warnings": [],
+			"totals": {
+				"bbar": {
+					"mttr": 8107.454545454545,
+					"mtbf": 2.7272727272727271,
+					"ntickets": 11,
+					"gmps": 59.554178881775179
+				},
+				"mtbf": 2.7272727272727271,
+				"mttr": 8107.454545454545,
+				"ntickets": 11,
+				"gmps": 59.554178881775179
+			},
+			"subservices": {
+				"BlackBerry Protect": {
+					"tickets": {
+						"S3 - Medium": 3,
+						"S1 - Critical": 1
+					},
+					"gmps": 36.618413617386139
+				},
+				"Geolocation": {
+					"tickets": {
+						"S3 - Medium": 1,
+						"S1 - Critical": 1
+					},
+					"gmps": 36.53580900954988
+				},
+				"Content Push": {
+					"tickets": {
+						"S3 - Medium": 2
+					},
+					"gmps": 0.83045227627874141
+				},
+				"BlackBerry World": {
+					"tickets": {
+						"S3 - Medium": 1,
+						"S1 - Critical": 1
+					},
+					"gmps": 36.53580900954988
+				},
+				"Personalize Tap to Pay": {
+					"tickets": {
+						
+					},
+					"gmps": 0.0
+				},
+				"BlackBerry Guardian": {
+					"tickets": {
+						
+					},
+					"gmps": 0.0
+				},
+				"BlackBerry Link/Blend": {
+					"tickets": {
+						"S3 - Medium": 3,
+						"S1 - Critical": 1
+					},
+					"gmps": 6.6714769778472123
+				},
+				"New Device Activation": {
+					"tickets": {
+						"S3 - Medium": 4,
+						"S1 - Critical": 2
+					},
+					"gmps": 37.564375708915804
+				},
+				"BlackBerry ID": {
+					"tickets": {
+						"S3 - Medium": 6,
+						"S1 - Critical": 1
+					},
+					"gmps": 54.114487492421993
+				},
+				"OS Software Upgrades": {
+					"tickets": {
+						
+					},
+					"gmps": 0.0
+				},
+				"Internet Browsing": {
+					"tickets": {
+						"S3 - Medium": 2
+					},
+					"gmps": 0.83045227627874141
+				},
+				"Integrated Email": {
+					"tickets": {
+						"S3 - Medium": 4
+					},
+					"gmps": 5.3079751091451861
+				}
+			},
+			"subservice-totals": {
+				"subscriber-minutes-with-ratio": 5038244406.3026543,
+				"subscriber-minutes": 15356197189.348694,
+				"gmps": 59.554178881775172
+			},
+			"resources": {
+				"SES_BISE": {
+					"descriptors": {
+						"biseout": {
+							"tickets": {
+								"INC-5655": 5508
+							},
+							"ntickets": 1,
+							"mttr": 5508.0,
+							"experience": {
+								"Integrated Email": ["BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5655": 5748
+								},
+								"mttr": 5748.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 4.4418198141325993
+							},
+							"mtbf": 30.0,
+							"gmps": 4.4418198141325993
+						}
+					},
+					"name": "SES-BlackBerry Internet Service Email Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 5748.0,
+							"mtbf": 30.0,
+							"ntickets": 1,
+							"gmps": 4.4418198141325993
+						},
+						"mtbf": 30.0,
+						"mttr": 5508.0,
+						"ntickets": 1,
+						"gmps": 4.4418198141325993
+					}
+				},
+				"SES_OLYMPIA": {
+					"descriptors": {
+						"olympiahera": {
+							"tickets": {
+								"INC-7299": 11,
+								"INC-8573": 117
+							},
+							"ntickets": 2,
+							"mttr": 64.0,
+							"experience": {
+								"BlackBerry Protect": ["BB10",
+								"BBOS"],
+								"BlackBerry ID": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS",
+								"PlayBook"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-7299": 11,
+									"INC-8573": 117
+								},
+								"mttr": 64.0,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 0.13146631735331557
+							},
+							"mtbf": 15.0,
+							"gmps": 0.13146631735331557
+						}
+					},
+					"name": "SES-Olympia Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 64.0,
+							"mtbf": 15.0,
+							"ntickets": 2,
+							"gmps": 0.13146631735331557
+						},
+						"mtbf": 15.0,
+						"mttr": 64.0,
+						"ntickets": 2,
+						"gmps": 0.13146631735331557
+					}
+				},
+				"SES_BBID": {
+					"descriptors": {
+						"bbidutlysrvzoneb": {
+							"tickets": {
+								"INC-6849": 41,
+								"INC-6516": 72
+							},
+							"ntickets": 2,
+							"mttr": 56.5,
+							"experience": {
+								"BlackBerry Link/Blend": ["Desktop"],
+								"BlackBerry ID": ["BB10",
+								"Desktop"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-6849": 41,
+									"INC-6516": 72
+								},
+								"mttr": 56.5,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 1.2310961784005814
+							},
+							"mtbf": 15.0,
+							"gmps": 1.2310961784005814
+						},
+						"bbid": {
+							"tickets": {
+								"INC-5428": 266,
+								"INC-5517": 98
+							},
+							"ntickets": 2,
+							"mttr": 182.0,
+							"experience": {
+								"BlackBerry Protect": ["BB10",
+								"BBOS",
+								"Desktop"],
+								"Geolocation": ["BB10",
+								"BBOS"],
+								"BlackBerry ID": ["Android",
+								"BB10",
+								"BBOS",
+								"Desktop",
+								"iOS",
+								"PlayBook"],
+								"New Device Activation": ["BB10",
+								"BBOS"],
+								"BlackBerry Link/Blend": ["BB10",
+								"Desktop"],
+								"BlackBerry World": ["BB10",
+								"BBOS",
+								"Desktop"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5428": 266,
+									"INC-5517": 98
+								},
+								"mttr": 182.0,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 52.718725925228505
+							},
+							"mtbf": 15.0,
+							"gmps": 52.718725925228505
+						}
+					},
+					"name": "SES-BBID Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 119.25,
+							"mtbf": 7.5,
+							"ntickets": 4,
+							"gmps": 53.949822103629089
+						},
+						"mtbf": 7.5,
+						"mttr": 119.25,
+						"ntickets": 4,
+						"gmps": 53.949822103629089
+					}
+				},
+				"SES_RLY": {
+					"descriptors": {
+						"rlypb": {
+							"tickets": {
+								"INC-5499": 32247,
+								"INC-6477": 7626
+							},
+							"ntickets": 2,
+							"mttr": 19936.5,
+							"experience": {
+								"New Device Activation": ["BBOS"],
+								"Internet Browsing": ["BBOS"],
+								"Content Push": ["BBOS"],
+								"Integrated Email": ["BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5499": 32427,
+									"INC-6477": 7626
+								},
+								"mttr": 20026.5,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 0.83045227627874141
+							},
+							"mtbf": 15.0,
+							"gmps": 0.83045227627874141
+						},
+						"rly": {
+							"tickets": {
+								"INC-12037": 12002
+							},
+							"ntickets": 1,
+							"mttr": 12002.0,
+							"experience": {
+								"New Device Activation": ["BBOS"],
+								"BlackBerry ID": ["BBOS"],
+								"Integrated Email": ["BB10",
+								"BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-12037": 11882
+								},
+								"mttr": 11882.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.035703018733845251
+							},
+							"mtbf": 30.0,
+							"gmps": 0.035703018733845251
+						}
+					},
+					"name": "SES-Relay Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 17311.666666666668,
+							"mtbf": 10.0,
+							"ntickets": 3,
+							"gmps": 0.8661552950125867
+						},
+						"mtbf": 10.0,
+						"mttr": 17291.666666666668,
+						"ntickets": 3,
+						"gmps": 0.8661552950125867
+					}
+				},
+				"SES_PRV": {
+					"descriptors": {
+						"prvreg": {
+							"tickets": {
+								"INC-6916": 31194
+							},
+							"ntickets": 1,
+							"mttr": 31194.0,
+							"experience": {
+								"New Device Activation": ["BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-6916": 30894
+								},
+								"mttr": 30894.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 0.16491535164758905
+							},
+							"mtbf": 30.0,
+							"gmps": 0.16491535164758905
+						}
+					},
+					"name": "SES-Provisioning Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 30894.0,
+							"mtbf": 30.0,
+							"ntickets": 1,
+							"gmps": 0.16491535164758905
+						},
+						"mtbf": 30.0,
+						"mttr": 31194.0,
+						"ntickets": 1,
+						"gmps": 0.16491535164758905
+					}
+				}
+			}
+		},
+		"Enterprise": {
+			"name": "Enterprise",
+			"warnings": [],
+			"totals": {
+				"bbar": {
+					"mttr": 872.61538461538464,
+					"mtbf": 2.3076923076923075,
+					"ntickets": 13,
+					"gmps": 66.952563458810786
+				},
+				"mtbf": 1.7647058823529411,
+				"mttr": 5553.7058823529414,
+				"ntickets": 17,
+				"gmps": 66.952563458810786
+			},
+			"subservices": {
+				"Automated Email Configuration": {
+					"tickets": {
+						
+					},
+					"gmps": 0
+				},
+				"Connectivity (Email, PIM, Browsing)": {
+					"tickets": {
+						"S3 - Medium": 8,
+						"S4 - Low": 5
+					},
+					"gmps": 3.1880639469089349
+				},
+				"IT Admin Login": {
+					"tickets": {
+						"S3 - Medium": 1
+					},
+					"gmps": 63.764499320848827
+				},
+				"Device Management": {
+					"tickets": {
+						"S3 - Medium": 4
+					},
+					"gmps": 63.764499320848827
+				},
+				"BBM Meetings": {
+					"tickets": {
+						
+					}
+				},
+				"New Tenant Provisioning": {
+					"tickets": {
+						"S3 - Medium": 1
+					},
+					"gmps": 0
+				},
+				"BBM Protected": {
+					"tickets": {
+						
+					}
+				},
+				"Purchasing (BES SW, CAL, T-Support)": {
+					"tickets": {
+						"S2 - High": 2
+					},
+					"gmps": 1.9105301832594807e-07
+				},
+				"Device Activation": {
+					"tickets": {
+						"S3 - Medium": 4,
+						"S1 - Critical": 1
+					},
+					"gmps": 63.764499320848827
+				},
+				"Enterprise BlackBerry ID": {
+					"tickets": {
+						
+					}
+				}
+			},
+			"subservice-totals": {
+				"subscriber-minutes-with-ratio": 451015900.85576004,
+				"subscriber-minutes": 1749742193.0470002,
+				"gmps": 66.952563458810772
+			},
+			"resources": {
+				"SES_BBCS": {
+					"descriptors": {
+						"cloudmso365m": {
+							"tickets": {
+								"INC-8574": 37,
+								"INC-7644": 132,
+								"INC-5925": 182,
+								"INC-6759": 195,
+								"INC-7399": 45,
+								"INC-6845": 20,
+								"INC-6431": 68,
+								"INC-5162": 118,
+								"INC-5938": 465,
+								"INC-8682": 50
+							},
+							"ntickets": 10,
+							"mttr": 131.19999999999999,
+							"experience": {
+								"Connectivity (Email, PIM, Browsing)": ["BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-8682": 50,
+									"INC-7644": 132,
+									"INC-5925": 182,
+									"INC-6759": 195,
+									"INC-7399": 45,
+									"INC-6845": 20,
+									"INC-6431": 68,
+									"INC-5162": 118,
+									"INC-5938": 465,
+									"INC-8574": 37
+								},
+								"mttr": 131.19999999999999,
+								"mtbf": 3.0,
+								"ntickets": 10,
+								"gmps": 3.1880639469089367
+							},
+							"mtbf": 3.0,
+							"gmps": 3.1880639469089367
+						},
+						"cloudmso365a": {
+							"tickets": {
+								"INC-6182": 9954
+							},
+							"ntickets": 1,
+							"mttr": 9954.0,
+							"experience": {
+								"IT Admin Login": ["Desktop"],
+								"Device Activation": ["BBOS"],
+								"Device Management": ["BBOS"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-6182": 9954
+								},
+								"mttr": 9954.0,
+								"mtbf": 30.0,
+								"ntickets": 1,
+								"gmps": 63.764499320848827
+							},
+							"mtbf": 30.0,
+							"gmps": 63.764499320848827
+						}
+					},
+					"name": "SES-Cloud Services Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 1024.1818181818182,
+							"mtbf": 2.7272727272727271,
+							"ntickets": 11,
+							"gmps": 66.952563267757768
+						},
+						"mtbf": 2.7272727272727271,
+						"mttr": 1024.1818181818182,
+						"ntickets": 11,
+						"gmps": 66.952563267757768
+					}
+				},
+				"SES_PRV": {
+					"descriptors": {
+						"prvreg": {
+							"tickets": {
+								"INC-6916": 31194
+							},
+							"ntickets": 1,
+							"mttr": 31194.0,
+							"experience": {
+								"Device Activation": ["BBOS"]
+							},
+							"bbar": {
+								
+							},
+							"mtbf": 30.0,
+							"gmps": null
+						}
+					},
+					"name": "SES-Provisioning Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 0,
+							"mtbf": 0,
+							"ntickets": 0,
+							"gmps": 0
+						},
+						"mtbf": 30.0,
+						"mttr": 31194.0,
+						"ntickets": 1,
+						"gmps": 0
+					}
+				},
+				"CTS_ECOMM": {
+					"descriptors": {
+						"bts-ecommerce": {
+							"tickets": {
+								"INC-5597": 51,
+								"INC-5608": 27
+							},
+							"ntickets": 2,
+							"mttr": 39.0,
+							"experience": {
+								"Purchasing (BES SW, CAL, T-Support)": ["Desktop"]
+							},
+							"bbar": {
+								"tickets": {
+									"INC-5597": 51,
+									"INC-5608": 27
+								},
+								"mttr": 39.0,
+								"mtbf": 15.0,
+								"ntickets": 2,
+								"gmps": 1.9105301832594804e-07
+							},
+							"mtbf": 15.0,
+							"gmps": 1.9105301832594804e-07
+						}
+					},
+					"name": "CTS-EComm Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 39.0,
+							"mtbf": 15.0,
+							"ntickets": 2,
+							"gmps": 1.9105301832594804e-07
+						},
+						"mtbf": 15.0,
+						"mttr": 39.0,
+						"ntickets": 2,
+						"gmps": 1.9105301832594804e-07
+					}
+				},
+				"SES_RLY": {
+					"descriptors": {
+						"rlypb": {
+							"tickets": {
+								"INC-5499": 32247,
+								"INC-6477": 7626
+							},
+							"ntickets": 2,
+							"mttr": 19936.5,
+							"experience": {
+								"Connectivity (Email, PIM, Browsing)": ["BBOS"],
+								"Device Activation": ["BBOS"],
+								"Device Management": ["BBOS"]
+							},
+							"bbar": {
+								
+							},
+							"mtbf": 15.0,
+							"gmps": null
+						},
+						"rly": {
+							"tickets": {
+								"INC-12037": 12002
+							},
+							"ntickets": 1,
+							"mttr": 12002.0,
+							"experience": {
+								"New Tenant Provisioning": ["Android",
+								"BB10",
+								"BBOS",
+								"iOS"],
+								"Device Activation": ["BBOS"],
+								"Connectivity (Email, PIM, Browsing)": ["BB10",
+								"BBOS"],
+								"Device Management": ["BBOS"]
+							},
+							"bbar": {
+								
+							},
+							"mtbf": 30.0,
+							"gmps": null
+						}
+					},
+					"name": "SES-Relay Resource",
+					"totals": {
+						"bbar": {
+							"mttr": 0,
+							"mtbf": 0,
+							"ntickets": 0,
+							"gmps": 0
+						},
+						"mtbf": 10.0,
+						"mttr": 17291.666666666668,
+						"ntickets": 3,
+						"gmps": 0
+					}
+				}
+			}
+		}
+	},
+	"oss": ["Android",
+	"BB10",
+	"BBOS",
+	"Desktop",
+	"iOS",
+	"PlayBook"],
+	"warnings": []
+}

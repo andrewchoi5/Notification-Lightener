@@ -1,0 +1,9 @@
+#.gitignore
+data/
+bootstrap-3.3.5-dist/
+font-awesome-4.3.0/
+form-master/
+includes/
+rotate/
+textdata/
+Thumbs.db

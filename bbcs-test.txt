@@ -1,0 +1,1 @@
+{"Total Availability By Month": {"SES_BBCS": {"2014": {"12": {"SES-BBCS": {"availability": 0.99540067159498213, "target": null}}}}}}
